@@ -1,13 +1,11 @@
 package ranges
 
-class App {
+object Ranges {
 
-    companion object {
-        @JvmField val A_TO_D = ('a'..'d')
-        @JvmField val A_UNTIL_D = ('a' until 'd')
-        @JvmField val A_RANGETO_D = ('a'.rangeTo('d'))
-        @JvmField val A_DOWNTO_D = ('d'.downTo('a'))
-    }
+    @JvmField val A_TO_D = ('a'..'d')
+    @JvmField val A_UNTIL_D = ('a' until 'd')
+    @JvmField val A_RANGETO_D = ('a'.rangeTo('d'))
+    @JvmField val A_DOWNTO_D = ('d'.downTo('a'))
 
 
     val dotdotRange: String
@@ -29,8 +27,8 @@ class App {
 }
 
 fun main(args: Array<String>) {
-    println(App().dotdotRange)
-    println(App().untilRange)
-    println(App().rangeTo)
-    println(App().downTo)
+    println(Ranges.dotdotRange)
+    println(Ranges.untilRange)
+    println(Ranges.rangeTo)
+    println(Ranges.downTo)
 }
