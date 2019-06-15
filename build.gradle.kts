@@ -1,10 +1,10 @@
 plugins {
-    id("org.jetbrains.kotlin.jvm").version("1.3.31")
     application
+    kotlin("jvm") version "1.3.31"
 }
 
-repositories {
-    jcenter()
+application {
+    mainClassName = "ranges.RangesKt"
 }
 
 dependencies {
@@ -13,6 +13,6 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit")
 }
 
-application {
-    mainClassName = "ranges.Ranges"
+repositories {
+    jcenter()
 }

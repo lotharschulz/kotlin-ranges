@@ -2,11 +2,11 @@
 
 ### run
 
-`gradlew run`
+`./gradlew run`
 
 ### test
 
-`gradlew test`
+`./gradlew test`
 
 ##### blog post
 
