@@ -14,5 +14,5 @@ dependencies {
 }
 
 application {
-    mainClassName = "kotlin.ranges.AppKt"
+    mainClassName = "ranges.Ranges"
 }
